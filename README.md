@@ -1,4 +1,4 @@
-# Modelica models for the paper "A Fundamental Time-Domain and Linearized Eigenvalue Analysis of Coalesced Power Transmission and Unbalanced Distribution Grids using Modelica and the OpenIPSL"
+# Modelica models for the paper "A Fundamental Time-Domain and Linearized Eigenvalue Analysis..."
 This repository contains the electrical power systems models used in the following paper (to be) presented in the [International Modelica Conference 2019](https://modelica.org/events/modelica2019):
 
 > Marcelo de Castro Fernandes, Luigi Vanfretti, Janaína Gonçalves de Oliveira, Maxime Baudette "A Fundamental Time-Domain and Linearized Eigenvalue Analysis of Coalesced Power Transmission and Unbalanced Distribution Grids using Modelica and the OpenIPSL," Proceedings of the 13th International Modelica Conference, Regensburg, Germany, March 4–6, 2019.
