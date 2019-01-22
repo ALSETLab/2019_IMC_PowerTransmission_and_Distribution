@@ -15,11 +15,10 @@ Follow the steps below:
 
 ![PackageOrder](./Figures/PackageOrdering.png 'Paper package ordering.')
 
-- The models corresponding to the tests made in the paper are within `PaperRepository.Systems`. 
 
 ## Models used in the paper
 
-As it was described, the models used in the paper are in the folder `Systems`, within `PaperRepository` package. There are seven models in `Systems`, but only six are used in the paper. Below, there is a summary of the correspondence between the simulations performed in the paper and their names in the folder `Systems`:
+The models corresponding to the tests made in the paper are within `PaperRepository.Systems`. There are seven models in `Systems`, but only six are used in the paper. Below, there is a summary of the correspondence between the simulations performed in the paper and their names in the folder `Systems`:
 
 - Simulation I: `IEEE14_SinglePh_B02`. 
 - Simulation II: `IEEE14_ThreePh_Bal_B02`. 
