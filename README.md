@@ -19,15 +19,31 @@ Follow the steps below:
 
 ## Models used in the paper
 
-As it was described, the models used in the paper are in the package `Systems`, within `PaperRepository`. There are seven models in the package `Systems`, but only six are used in the paper. Below, there is a summary of the correspondence simulations performed in the paper and their
+As it was described, the models used in the paper are in the folder `Systems`, within `PaperRepository` package. There are seven models in `Systems`, but only six are used in the paper. Below, there is a summary of the correspondence between the simulations performed in the paper and their names in the folder `Systems`:
+
+- Simulation I: `IEEE14_SinglePh_B02`. 
+- Simulation II: `IEEE14_ThreePh_Bal_B02`. 
+- Simulation III: `IEEE14_ThreePh_UnBal_B02`. 
+- Simulation IV: `IEEE14_SinglePh_B11`. 
+- Simulation V: `IEEE14_ThreePh_Bal_B11`.
+- Simulation VI: `IEEE14_ThreePh_UnBal_B11`. 
 
 
-The remaining system corresponds to the original IEEE 14-bus case.
+The remaining model within `Systems` is `IEEE14_BaseCase` ant it corresponds to the original IEEE 14-bus case. This system was used to validate the IEEE 14-bus implementation in Modelica. 
 
 ## Examples
 
 ### Simulation I
+When performing simulation I (`IEEE14_SinglePh_B02`), one should be able to have the result presented below by selecting the variable `B02.V`.  
 ![SimulationI](./Figures/B02_Extended.png 'Bus 02 voltage on simulation I.')
 
 ### Simulation IV
+When performing simulation IV (`IEEE14_SinglePh_B11`), one should be able to have the result presented below by selecting the variable `B11.V`. 
 ![SimulationIV](./Figures/B02_Extended.png 'Bus 11 voltage on simulation IV.')
+
+## Additional Information
+
+The following information may be also be useful:
+- The original final version for the paper is available in `./Paper/` in the portable document format (.pdf).
+- The simulation parameter is already stored in each model annotation. Hence, there's no need to configure the simulation setup to the parameters presented in the paper. Just hit the Simulate button.
+- If the user try to simulate the models in OpenModelica a problem may appear considering initialization. Do not dispair, this problem is related to OpenModelica solvers, but it is easily corrected. To correct the wrong initialization problem it is necessary to check the initialization box in some variables in the generators within `GenGroups`. On the other hand, there is no need to do such thing when using Dymola.
