@@ -13,7 +13,21 @@ Follow the steps below:
 - Again, in your Modelica compliant software, load the library `./OpenIpSL-master/OpenIPSL/Application_Examples/ThreePhase/package.mo`
 - Again, in your Modelica compliant software, load the library `./PaperRepository/package.mo`. The package browser should look like this:
 
+![PackageOrder](./Figures/PackageOrdering.png 'Paper package ordering.')
+
 - The models corresponding to the tests made in the paper are within `PaperRepository.Systems`. 
-- Simulate the models and you shall obtain the results related to time-domain which are shown in the paper.
 
 ## Models used in the paper
+
+As it was described, the models used in the paper are in the package `Systems`, within `PaperRepository`. There are seven models in the package `Systems`, but only six are used in the paper. Below, there is a summary of the correspondence simulations performed in the paper and their
+
+
+The remaining system corresponds to the original IEEE 14-bus case.
+
+## Examples
+
+### Simulation I
+![SimulationI](./Figures/B02_Extended.png 'Bus 02 voltage on simulation I.')
+
+### Simulation IV
+![SimulationIV](./Figures/B02_Extended.png 'Bus 11 voltage on simulation IV.')
