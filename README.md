@@ -38,7 +38,7 @@ When performing simulation I (`IEEE14_SinglePh_B02`), one should be able to have
 
 ### Simulation IV
 When performing simulation IV (`IEEE14_SinglePh_B11`), one should be able to have the result presented below by selecting the variable `B11.V`. 
-![SimulationIV](./Figures/B02_Extended.png 'Bus 11 voltage on simulation IV.')
+![SimulationIV](./Figures/B11_Extended.png 'Bus 11 voltage on simulation IV.')
 
 ## Additional Information
 
